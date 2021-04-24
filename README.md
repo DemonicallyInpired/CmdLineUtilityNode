@@ -2,9 +2,9 @@
 A basic Command Line Utility to automate readily used POSIX like operations wirtten in Java Script and implemented in Node.js
 
 Let's start by changing the default executable bit of the utilities.js file to 1
-> chmod u+x utilities.js
+> chmod u+x *utilities.js*
 
-You can now use utilities.js to do various POSIX based task from the Unix terminal or CLI.
+You can now use *utilities.js* to do various POSIX based task from the Unix terminal or CLI.
 
 A detailed list of operations that can be performed is listed below:
 
