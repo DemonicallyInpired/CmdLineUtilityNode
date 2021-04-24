@@ -1,0 +1,33 @@
+incorrect usagae
+
+  utils.js usage  
+
+   utils.js --help
+   utils.js --printfilepath
+   utils.js --readFileSync
+   utils.js --readFileAsync
+   utils.js --readStreams
+   utils.js --out
+   cat {FILENAME} | ./utils.js --in or -
+   cat {FILENAME} | ./utils.js --streamin
+   utils.js --readStreams --out --compress
+   utils.js --instreams --compress
+   utils.js --instreams --uncompress
+   utlis.js --start_server
+   utils.js --start_server_with_express
+   utils.js --spin_childprocess
+   utils.js --others
+--help                        print the help
+--printfilepath={FILENAME}    print the files relative and absolute path
+--readFileSync={FILENAME}     print the content of the file Synchronouslly
+--readFileAsync={FILENAME}    process file Asynchronouslly
+--readStreams={FILENAME}      process Streams
+--in, -                       process stdin though the console
+--streamin                    process inputing the stream through console
+--out                         print the stdout
+--compress                    gzip the output
+--uncompress                  uncompress the gzipped file
+--others                      process the database
+--start_server                Start the file server
+--start_server_with_express   Start the Express Server
+--spin_childprocess           Spin mutliple child process to check the load on the server
