@@ -12,21 +12,21 @@ A detailed list of operations that can be performed is listed below:
 <div class = "highlight highlight-source-css">
   
   <pre>
-       utilities.js --help
-       utilites.js --printfilepath
-       utilities.js --readFileSync
-       utilities.js --readFileAsync
-       utilities.js --readStreams
-       utilities.js --out
+       ./utilities.js --help
+       ./utilites.js --printfilepath
+       ./utilities.js --readFileSync
+       ./utilities.js --readFileAsync
+       ./utilities.js --readStreams
+       ./utilities.js --out
        cat {FILENAME} | ./utilities.js --in or -
        cat {FILENAME} | ./utilities.js --streamin
-       utilities.js --readStreams --out --compress
+       ./utilities.js --readStreams --out --compress
        cat {FILENAME} | ./utilities.js --streamin --compress
        cat {FILENAME} | ./utilities.js --instreams --uncompress
-       utlities.js --start_server
-       utilities.js --start_server_with_express
-       utilities.js --spin_childprocess
-       utilities.js --others
+       ./utlities.js --start_server
+       ./utilities.js --start_server_with_express
+       ./utilities.js --spin_childprocess
+       ./utilities.js --others
 --help                       print the help
 --printfilepath={FILENAME}   print the files relative and absolute path
 --readFileSync={FILENAME}    print the content of the file Synchronously
