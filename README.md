@@ -13,10 +13,10 @@ A detailed list of operations that can be performed is listed below:
   
   <pre>
        ./utilities.js --help
-       ./utilites.js --printfilepath
-       ./utilities.js --readFileSync
-       ./utilities.js --readFileAsync
-       ./utilities.js --readStreams
+       ./utilites.js --printfilepath={FILE_NAME}
+       ./utilities.js --readFileSync={FILE_NAME}
+       ./utilities.js --readFileAsync={FILE_NAME}
+       ./utilities.js --readStreams={FILE_NAME}
        ./utilities.js --out
        cat {FILENAME} | ./utilities.js --in or -
        cat {FILENAME} | ./utilities.js --streamin
