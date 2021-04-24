@@ -26,7 +26,7 @@ A detailed list of operations that can be performed is listed below:
        ./utlities.js --start_server
        ./utilities.js --start_server_with_express
        ./utilities.js --spin_childprocess
-       ./utilities.js --others
+       ./utilities.js --others={STRING}
 --help                       print the help
 --printfilepath={FILENAME}   print the files relative and absolute path
 --readFileSync={FILENAME}    print the content of the file Synchronously
