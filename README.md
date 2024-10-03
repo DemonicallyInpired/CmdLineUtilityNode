@@ -40,6 +40,6 @@ A detailed list of operations that can be performed is listed below:
 --others                     process the database
 --start_server               Start the File server
 --start_server_with_express  Start the Express Server
---spin_childprocess          Spin mutliple child processes to check the load on the server
+--spin_childprocess          Spin mutliple child processes to check the load on the servers
   </pre>
 </div>
